@@ -22,7 +22,7 @@ let line = [
 
 // Create a polyline using the line coordinates and make the line red.
 L.polyline(line, {
-    
+    dashArray: '5,10',
     color: "blue",
     opacity: 0.5,
     weight: 4
